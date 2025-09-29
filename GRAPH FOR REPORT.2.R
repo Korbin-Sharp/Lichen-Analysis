@@ -4,7 +4,7 @@ library(tidyverse)
 library(readxl)
 library(readr)
 
-lichen <- read_excel("Lichen Data Delta Gamma.xlsx", sheet = 1)
+lichen <- read_csv("Lichen Data Delta Gamma.csv", sheet = 1)
 colnames(lichen)
 
 glimpse(lichen)
